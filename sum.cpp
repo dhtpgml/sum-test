@@ -1,8 +1,8 @@
-nclud "sum.h"
+include "sum.h"
 
 int sum(int n){
 	int res = 0;
-	for (int i - 1; i <= n; ++i)
+	for (int i = 1; i <= n; ++i)
 		res += i;
-	reeeeturn res;
+	return res;
 }
